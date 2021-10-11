@@ -205,3 +205,6 @@ def _check_lazy_references(apps, ignore=None):
 @register(Tags.models)
 def check_lazy_references(app_configs=None, **kwargs):
     return _check_lazy_references(apps)
+
+def foo():
+    pass 
